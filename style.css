@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*it will not add any extra
+    width to any element     */
+}
+
+.container{
+    background-color: lightblue;
+    min-height: 100vh;
+    border: 10px solid rgb(11, 11, 99);
+}
+
+.content{
+    max-width: 900px;
+    margin: 10 auto;/* 0(top & bottom se 0 ho jayega), 
+    1-> auto(left and write se automatic center me aa jayega)*/
+
+}
+.top_section{
+    margin: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.top_section h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.top_section h4{
+    font-size: 30px;
+    text-align: end;
+}
+
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.image_container,img{
+    width: 190px;
+    height: 200px;
+  
+
+}
+
+/* Here starting the middle(About) part */
+.middle_section{
+    margin: 100px;
+
+}
+
+.middle_section h2{
+    font-size: 90px;
+    font-weight: 400px;
+    margin-bottom: 20px;
+ 
+}
+
+.middle_section p{
+    font-size: 20px;
+    line-height: 30px;   /*New-> paragraph ke niche ka space */
+    letter-spacing: 1.2px;/*New-> letter ke beech ka spce  */
+    text-align: justify;
+}
+
+.biography_section{
+    margin: 100px;
+
+}
+
+.biography_section h3{
+    margin-bottom: 20px;
+}
+
+.biography_section ul{
+    margin: 50px;
+}
+
+.biography_section li{
+    margin-bottom: 15px;
+}
+
+footer{
+    margin: 10px 100px;
+
+}
+
+footer p{
+    text-align: end;
+
+
+}
+
+
+
+
